@@ -1,10 +1,10 @@
 ## react-pro-franchising
 
-- [Dashboard Page](https://react-material-dashboard.devias.io/app/dashboard)
-- [Products Page](https://react-material-dashboard.devias.io/app/products)
-- [Register Page](https://react-material-dashboard.devias.io/register)
-- [Login Page](https://react-material-dashboard.devias.io/login)
-- [Account Page](https://react-material-dashboard.devias.io/app/account)
+- [Dashboard Page](https://pro-franchising.netlify.app/app/dashboard)
+- [Products Page](https://pro-franchising.netlify.app/app/products)
+- [Register Page](https://pro-franchising.netlify.app/register)
+- [Login Page](https://pro-franchising.netlify.app/login)
+- [Account Page](https://pro-franchising.netlify.app/app/account)
 
 ### What's inside it?
 
