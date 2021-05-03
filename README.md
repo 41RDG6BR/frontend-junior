@@ -50,6 +50,8 @@
 - `yarn start (or npm run start)`: Starts the application on development mode
 - `yarn build (or npm run build)`: Build project to production
 - `yarn dev (or npm dev)`: Special script reserved to run production code. Change as you wish. For now, it is the same as `yarn dev`.
+- `yarn test (or npm test)`: Run tests once
+- `yarn lint (or npm lint)`: Run eslint --fix --ext .js,.jsx .
 
 ## Quick start
 
