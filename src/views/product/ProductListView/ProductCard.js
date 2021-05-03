@@ -123,25 +123,6 @@ const ProductCard = ({
               display="inline"
               variant="body2"
             >
-              Ingredients:
-            </Typography>
-          </Grid>
-        </Grid>
-        <Divider />
-        <Grid
-          container
-          justify="space-between"
-          spacing={2}
-        >
-          <Grid
-            className={classes.statsItem}
-            item
-          >
-            <Typography
-              color="textSecondary"
-              display="inline"
-              variant="body2"
-            >
               R$
               {' '}
               {product.price}
