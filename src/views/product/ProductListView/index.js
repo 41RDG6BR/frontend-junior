@@ -28,12 +28,13 @@ const ProductList = () => {
     content: [], totalElements: 0, totalPages: 3, numberOfElements: 0
   });
 
+  const loadProducts = async () => {
+    const { data } = await productList();
+    console.log(data, 'my content');
+    setProducts(data);
+  };
   useEffect(() => {
-    (async () => {
-      const { data } = await productList();
-      console.log(data, 'my content');
-      setProducts(data);
-    })();
+    loadProducts();
   }, []);
 
   return (
@@ -57,6 +58,7 @@ const ProductList = () => {
                 xs={12}
               >
                 <ProductCard
+                  loadProducts={loadProducts}
                   className={classes.productCard}
                   product={product}
                 />
