@@ -11,32 +11,6 @@
 
 - Node.js `>=` v14;
 
-### What's inside it?
-
-*  @material-ui/core
-*  @material-ui/icons
-*  @material-ui/lab
-*  @material-ui/styles
-*  axios
-*  chart.js
-*  clsx
-*  formik
-*  history
-*  lodash
-*  moment
-*  nprogress
-*  prop-types
-*  react
-*  react-chartjs-2
-*  react-dom
-*  react-feather
-*  react-helmet
-*  react-perfect-scrollbar
-*  react-router
-*  react-router-dom
-*  react-scripts
-*  yup
-
 ### Up and running
 
 - Clone this repository: `https://github.com/41RDG6BR/frontend-junior.git`;
@@ -45,7 +19,7 @@
 - Run `yarn start` (or `npm start`) to develop on `http://localhost:3000`
 - Run `yarn build` (or `npm run build`) for production build (files will be generated on `dist` directory)
 
-## Scripts
+### Scripts
 
 - `yarn start (or npm run start)`: Starts the application on development mode
 - `yarn build (or npm run build)`: Build project to production
@@ -53,7 +27,7 @@
 - `yarn test (or npm test)`: Run tests once
 - `yarn lint (or npm lint)`: Run eslint --fix --ext .js,.jsx .
 
-## Quick start
+### Quick start
 
 - Clone the repo: `git clone https://github.com/41RDG6BR/frontend-junior.git`
 
@@ -65,7 +39,7 @@
 
 - Views are on: `localhost:3000`
 
-## File Structure
+### File Structure
 
 Within the download you'll find the following directories and files:
 
