@@ -51,8 +51,6 @@
 - `yarn build (or npm run build)`: Build project to production
 - `yarn dev (or npm dev)`: Special script reserved to run production code. Change as you wish. For now, it is the same as `yarn dev`.
 
-## License
-
 ## Quick start
 
 - Clone the repo: `git clone https://github.com/41RDG6BR/frontend-junior.git`
