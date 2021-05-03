@@ -1,16 +1,18 @@
-## react-pro-franchising
-
-- [https://pro-franchising.netlify.app](https://pro-franchising.netlify.app)
+## Pro-franchising
 
 - [Dashboard Page](https://pro-franchising.netlify.app/app/dashboard)
 - [Products Page](https://pro-franchising.netlify.app/app/products)
 - [Register Page](https://pro-franchising.netlify.app/register)
 - [Login Page](https://pro-franchising.netlify.app/login)
 - [Account Page](https://pro-franchising.netlify.app/app/account)
+- [https://pro-franchising.netlify.app](https://pro-franchising.netlify.app)
+
+### Dependencies:
+
+- Node.js `>=` v14;
 
 ### What's inside it?
 
-*  Async/await
 *  @material-ui/core
 *  @material-ui/icons
 *  @material-ui/lab
@@ -35,10 +37,6 @@
 *  react-scripts
 *  yup
 
-### Dependencies:
-
-- Node.js `>=` v14;
-
 ### Up and running
 
 - Clone this repository: `https://github.com/41RDG6BR/frontend-junior.git`;
@@ -57,7 +55,7 @@
 
 ## Quick start
 
-- [Download from Github](https://github.com/41RDG6BR/frontend-junior.git) or clone the repo: `git clone https://github.com/41RDG6BR/frontend-junior.git`
+- Clone the repo: `git clone https://github.com/41RDG6BR/frontend-junior.git`
 
 - Make sure your NodeJS and npm versions are up to date for `React 16.8.6`
 
@@ -72,7 +70,7 @@
 Within the download you'll find the following directories and files:
 
 ```
-react-pro-franchising
+Pro-franchising
 
 ├── .eslintrc
 ├── .gitignore
