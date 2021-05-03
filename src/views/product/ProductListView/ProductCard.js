@@ -13,7 +13,7 @@ import {
   makeStyles,
 } from '@material-ui/core';
 import { Delete, Edit } from 'react-feather';
-import { remove as deleteProduct, list as productList } from '../../../services/ProductsServer';
+import { remove as deleteProduct } from '../../../services/ProductsServer';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -29,7 +29,12 @@ const useStyles = makeStyles((theme) => ({
   }
 }));
 
-const ProductCard = ({ className, product, ...rest }) => {
+const ProductCard = ({
+  className,
+  product,
+  loadProducts,
+  ...rest
+}) => {
   const classes = useStyles();
 
   return (
@@ -64,7 +69,7 @@ const ProductCard = ({ className, product, ...rest }) => {
                 <Delete
                   onClick={(e) => {
                     deleteProduct(product.id).then(() => {
-                      productList();
+                      loadProducts();
                     });
                     e.preventDefault();
                     return false;
@@ -150,7 +155,8 @@ const ProductCard = ({ className, product, ...rest }) => {
 
 ProductCard.propTypes = {
   className: PropTypes.string,
-  product: PropTypes.object.isRequired
+  product: PropTypes.object.isRequired,
+  loadProducts: PropTypes.func.isRequired
 };
 
 export default ProductCard;
