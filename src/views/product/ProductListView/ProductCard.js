@@ -85,6 +85,7 @@ const ProductCard = ({
           mb={3}
         >
           <Avatar
+            style={{ height: '200px', width: '200px' }}
             alt="Product"
             src={product.image}
             variant="square"

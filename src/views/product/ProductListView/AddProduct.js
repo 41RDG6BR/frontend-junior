@@ -40,9 +40,9 @@ const AddProductView = () => {
         <Container maxWidth="sm">
           <Formik
             initialValues={{
-              name: 'Produto',
-              price: '1',
-              image: 'https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg',
+              name: '',
+              price: '',
+              image: '',
               ingredients: [{
                 id: 0, name: 'leite', cost: 10, quantity: 10
               }]
